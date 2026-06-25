@@ -27,7 +27,7 @@ I'm **Pragya Jain**, a Software Developer passionate about building responsive w
 
 ## About
 
-![About](assets/About (2).png)
+![About](assets/About.png)
 
 ## Skills
 
