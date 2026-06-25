@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Thermal topology optimization placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#e8f4da"/>
+      <stop offset="1" stop-color="#fff0b8"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" rx="36" fill="url(#bg)"/>
+  <g transform="translate(96 68)">
+    <rect width="768" height="352" rx="34" fill="#fffaf2" stroke="#1f1b16" stroke-width="5"/>
+    <path d="M98 290c70-44 72-114 136-128 52-12 88 40 132 20 56-26 34-110 104-122 68-12 86 70 144 48 42-16 46-58 78-70" fill="none" stroke="#1f1b16" stroke-width="18" stroke-linecap="round"/>
+    <path d="M230 170c-20 58-58 84-106 104" fill="none" stroke="#f9735b" stroke-width="10" stroke-linecap="round"/>
+    <path d="M366 184c-10 52-4 88 30 120" fill="none" stroke="#7fb069" stroke-width="10" stroke-linecap="round"/>
+    <path d="M520 92c38 48 84 66 142 58" fill="none" stroke="#4f8cc9" stroke-width="10" stroke-linecap="round"/>
+    <g fill="#f5c542" stroke="#1f1b16" stroke-width="4">
+      <circle cx="98" cy="290" r="24"/>
+      <circle cx="230" cy="170" r="24" fill="#f9735b"/>
+      <circle cx="366" cy="184" r="24" fill="#7fb069"/>
+      <circle cx="520" cy="92" r="24" fill="#4f8cc9"/>
+      <circle cx="692" cy="38" r="24" fill="#8b5cf6"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-label="Frontend component system illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff8ef"/><stop offset="1" stop-color="#f4e8d5"/></linearGradient>
+    <linearGradient id="dark" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1f1b16"/><stop offset="1" stop-color="#3d5f4d"/></linearGradient>
+  </defs>
+  <rect width="900" height="620" rx="54" fill="url(#bg)"/>
+  <rect x="112" y="96" width="676" height="428" rx="42" fill="url(#dark)"/>
+  <rect x="160" y="150" width="580" height="76" rx="24" fill="#fff5e7" opacity=".13"/>
+  <rect x="160" y="270" width="168" height="176" rx="26" fill="#ffdb79"/>
+  <rect x="366" y="270" width="168" height="176" rx="26" fill="#ffad96"/>
+  <rect x="572" y="270" width="168" height="176" rx="26" fill="#a9c7a6"/>
+  <path d="M204 338h78M410 338h78M616 338h78" stroke="#171511" stroke-width="14" stroke-linecap="round" opacity=".76"/>
+  <path d="M204 384h54M410 384h54M616 384h54" stroke="#171511" stroke-width="14" stroke-linecap="round" opacity=".44"/>
+  <circle cx="196" cy="188" r="11" fill="#ff8b68"/><circle cx="230" cy="188" r="11" fill="#e7b84d"/><circle cx="264" cy="188" r="11" fill="#9be54d"/>
+  <text x="112" y="72" fill="#231f18" font-size="32" font-family="Arial, sans-serif" font-weight="700">component practice</text>
+</svg>

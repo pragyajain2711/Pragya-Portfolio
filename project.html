@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fff8ef" />
+  <meta
+    name="description"
+    content="Projects by Pragya Jain across React, TypeScript, Tailwind, Java, SQL, API testing and workflow applications."
+  />
+  <meta property="og:title" content="Projects | Pragya Jain" />
+  <meta
+    property="og:description"
+    content="Curated software projects by Pragya Jain including a Canteen Management System and AI-Powered Resume Analyzer."
+  />
+  <meta property="og:type" content="website" />
+  <title>Projects | Pragya Jain</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="project-page">
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header" id="site-header">
+    <a class="brand" href="index.html#home" aria-label="Go to home">
+      <span class="brand-mark">PJ</span>
+      <span>Pragya Jain</span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="index.html#about">About</a>
+      <a href="index.html#skills">Skills</a>
+      <a href="index.html#journey">Journey</a>
+      <a class="is-current" href="project.html">Projects</a>
+      <a href="index.html#experience">Experience</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch theme" aria-pressed="false">
+        <span class="theme-toggle-icon" aria-hidden="true"></span>
+        <span class="theme-toggle-text">Mood</span>
+      </button>
+      <a class="resume-link" href="Pragya_Jain_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+      <button class="menu-button" id="menu-button" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+    <a href="index.html#about">About</a>
+    <a href="index.html#skills">Skills</a>
+    <a href="index.html#journey">Journey</a>
+    <a href="project.html">Projects</a>
+    <a href="index.html#experience">Experience</a>
+    <a href="index.html#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section class="section project-hero">
+      <div class="project-hero-grid reveal">
+        <div class="project-hero-copy">
+          <p class="eyebrow"><span class="mini-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m8 9-4 3 4 3"/><path d="m16 9 4 3-4 3"/><path d="m14 5-4 14"/></svg></span> curated work</p>
+          <h1>Projects that turn everyday workflow problems into usable web apps.</h1>
+          <p class="hero-description">
+            A focused project page for React interfaces, API-backed workflows, resume analysis tools and the coordination systems behind student placement operations.
+          </p>
+        </div>
+
+        <aside class="project-quote-card" aria-label="Project philosophy">
+          <p>“Good software should make the next step obvious.”</p>
+          <span>understand → design → build → test → improve</span>
+        </aside>
+      </div>
+
+      <div class="project-wordrail reveal" aria-label="Project process words">
+        <span>requirements</span>
+        <span>components</span>
+        <span>database</span>
+        <span>APIs</span>
+        <span>testing</span>
+        <span>workflow</span>
+        <span>responsive UI</span>
+        <span>users</span>
+      </div>
+    </section>
+
+    <section class="section curated-work-section" id="curated-work">
+      <div class="section-heading reveal">
+        <p class="eyebrow"><span>01</span> selected projects</p>
+        <h2>Case-study style notes for the work worth showing.</h2>
+      </div>
+
+      <div class="work-case-grid">
+        <article class="work-case-card reveal">
+          <div class="work-case-image">
+            <img src="assets/project-canteen.png" alt="Canteen Management System project preview" />
+          </div>
+          <div class="work-case-content">
+            <div class="case-meta">
+              <span>React</span>
+              <span>SQL</span>
+              <span>Postman</span>
+              <span>XAMPP</span>
+            </div>
+            <h2>Canteen Management System</h2>
+            <p>A web-based system built during internship at Indian Oil Corporation to automate food ordering, billing and meal tracking for 100+ employees.</p>
+            <div class="case-details">
+              <div>
+                <strong>Worked on</strong>
+                <p>React UI components, desk-delivery workflow, database schema, API testing and local deployment.</p>
+              </div>
+              <div>
+                <strong>Outcome</strong>
+                <p>Reduced order-to-delivery time by about 50%, moving from register-based ordering to a digital workflow.</p>
+              </div>
+            </div>
+            <a class="primary-button" href="mailto:pragyaj2704@gmail.com?subject=Canteen%20Management%20System">Discuss project</a>
+          </div>
+        </article>
+
+        <article class="work-case-card reveal">
+          <div class="work-case-image">
+            <img src="assets/project-resume.png" alt="AI-Powered Resume Analyzer project preview" />
+          </div>
+          <div class="work-case-content">
+            <div class="case-meta">
+              <span>React</span>
+              <span>TypeScript</span>
+              <span>Tailwind CSS</span>
+              <span>AI APIs</span>
+            </div>
+            <h2>AI-Powered Resume Analyzer</h2>
+            <p>An AI-based platform that matches resumes with job descriptions and provides ATS score and skill-gap feedback.</p>
+            <div class="case-details">
+              <div>
+                <strong>Worked on</strong>
+                <p>Complete frontend, reusable components, file upload, preview flow, React Router and basic state handling.</p>
+              </div>
+              <div>
+                <strong>Outcome</strong>
+                <p>Created a smoother resume analysis flow where users can compare their resume against job requirements.</p>
+              </div>
+            </div>
+            <a class="primary-button" href="mailto:pragyaj2704@gmail.com?subject=AI%20Resume%20Analyzer">Discuss project</a>
+          </div>
+        </article>
+
+        <article class="work-case-card reveal">
+          <div class="work-case-image">
+            <img src="assets/project-placement.png" alt="Placement coordination workflow preview" />
+          </div>
+          <div class="work-case-content">
+            <div class="case-meta">
+              <span>Operations</span>
+              <span>Scheduling</span>
+              <span>HR comms</span>
+              <span>Students</span>
+            </div>
+            <h2>Placement coordination workflow</h2>
+            <p>A coordination-heavy leadership workflow supporting recruitment drives, mock interviews, resume reviews and campus hiring communication.</p>
+            <div class="case-details">
+              <div>
+                <strong>Worked on</strong>
+                <p>Recruitment scheduling, direct HR communication, drive coordination and student preparation support.</p>
+              </div>
+              <div>
+                <strong>Outcome</strong>
+                <p>Supported 40+ recruitment drives, 20+ company engagements and 500+ students through placement activities.</p>
+              </div>
+            </div>
+            <a class="secondary-button" href="mailto:pragyaj2704@gmail.com?subject=Placement%20coordination%20workflow">Discuss workflow</a>
+          </div>
+        </article>
+
+        <article class="work-case-card reveal">
+          <div class="work-case-image">
+            <img src="assets/project-ui.png" alt="Frontend component system preview" />
+          </div>
+          <div class="work-case-content">
+            <div class="case-meta">
+              <span>Frontend</span>
+              <span>Responsive UI</span>
+              <span>Components</span>
+              <span>Practice</span>
+            </div>
+            <h2>Reusable frontend component practice</h2>
+            <p>A growing collection of interface patterns and reusable frontend building blocks used across portfolio and project experiments.</p>
+            <div class="case-details">
+              <div>
+                <strong>Worked on</strong>
+                <p>Responsive layouts, UI states, forms, cards, navigation patterns and frontend polish.</p>
+              </div>
+              <div>
+                <strong>Outcome</strong>
+                <p>Improved speed and consistency while building React-based project interfaces.</p>
+              </div>
+            </div>
+            <a class="secondary-button" href="mailto:pragyaj2704@gmail.com?subject=Frontend%20component%20practice">Ask about it</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section learning-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow"><span>02</span> learnings</p>
+        <h2>The recurring notes I keep coming back to.</h2>
+      </div>
+
+      <div class="learning-grid">
+        <article class="learning-card reveal">
+          <span class="mini-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="6" height="6" rx="1.5"/><rect x="14" y="4" width="6" height="6" rx="1.5"/><rect x="4" y="14" width="6" height="6" rx="1.5"/><rect x="14" y="14" width="6" height="6" rx="1.5"/></svg></span>
+          <h3>Break the UI into pieces</h3>
+          <p>Reusable components make the interface easier to reason about, test and improve.</p>
+        </article>
+        <article class="learning-card reveal">
+          <span class="mini-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 3v5l-5 9a3 3 0 0 0 2.6 4.5h10.8A3 3 0 0 0 20 17L15 8V3"/><path d="M8 3h8"/><path d="M7 15h10"/></svg></span>
+          <h3>Test before assuming</h3>
+          <p>API testing and small checks save time before the interface gets too polished.</p>
+        </article>
+        <article class="learning-card reveal">
+          <span class="mini-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="6" height="5" rx="1.4"/><rect x="14" y="14" width="6" height="5" rx="1.4"/><path d="M10 7.5h2.5a3.5 3.5 0 0 1 3.5 3.5V14"/><path d="m14 12 2 2 2-2"/></svg></span>
+          <h3>Workflows matter</h3>
+          <p>A good project is not just screens. It should reduce real friction for the people using it.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-card contact-card-doodle reveal">
+        <div class="contact-doodle" aria-hidden="true"><span class="mini-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 6h14a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2h-8l-5 4v-4H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2Z"/><path d="m8 11 2 2-2 2"/><path d="M12 15h4"/></svg></span></div>
+        <p class="eyebrow"><span>03</span> next project?</p>
+        <h2>Let’s build something practical, clean and easy to use.</h2>
+        <p>Open to software development opportunities, frontend roles, internships and useful product ideas where React, APIs and user workflows matter.</p>
+
+        <div class="contact-links">
+          <a href="mailto:pragyaj2704@gmail.com">Email</a>
+          <a href="https://github.com/pragyajain2711" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://linkedin.com/in/pragyajain2711" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="index.html">Back home</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top">↑</button>
+
+  <footer class="site-footer">
+    <div class="footer-top">
+      <a class="footer-brand" href="index.html#home" aria-label="Go to home">
+        <span class="brand-mark">PJ</span>
+        <span>Pragya Jain</span>
+      </a>
+      <p>Curated project notes across React, Java, SQL, APIs and practical workflow applications.</p>
+    </div>
+
+    <div class="footer-columns">
+      <div>
+        <h3>Navigate</h3>
+        <a href="index.html#about">About</a>
+        <a href="index.html#skills">Skills</a>
+        <a href="index.html#journey">Journey</a>
+        <a href="index.html#experience">Experience</a>
+      </div>
+      <div>
+        <h3>Projects</h3>
+        <a href="#curated-work">Selected work</a>
+        <a href="index.html#contact">Collaborate</a>
+        <a href="Pragya_Jain_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+      </div>
+      <div>
+        <h3>Connect</h3>
+        <a href="mailto:pragyaj2704@gmail.com">Email</a>
+        <a href="https://github.com/pragyajain2711" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://linkedin.com/in/pragyajain2711" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 Pragya Jain. Built with HTML, CSS and JavaScript.</span>
+      <a href="index.html#home">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

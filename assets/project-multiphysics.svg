@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Multiphysics workflow platform placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#eee7ff"/>
+      <stop offset="1" stop-color="#e3effb"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" rx="36" fill="url(#bg)"/>
+  <g transform="translate(96 74)">
+    <rect width="768" height="340" rx="34" fill="#fffaf2" stroke="#1f1b16" stroke-width="5"/>
+    <g transform="translate(80 70)">
+      <rect width="170" height="92" rx="24" fill="#ffe2d8" stroke="#1f1b16" stroke-width="4"/>
+      <text x="42" y="57" fill="#1f1b16" font-family="Inter, Arial" font-size="24" font-weight="800">CAD</text>
+    </g>
+    <g transform="translate(298 70)">
+      <rect width="170" height="92" rx="24" fill="#fff0b8" stroke="#1f1b16" stroke-width="4"/>
+      <text x="42" y="57" fill="#1f1b16" font-family="Inter, Arial" font-size="24" font-weight="800">CAE</text>
+    </g>
+    <g transform="translate(516 70)">
+      <rect width="170" height="92" rx="24" fill="#e8f4da" stroke="#1f1b16" stroke-width="4"/>
+      <text x="45" y="57" fill="#1f1b16" font-family="Inter, Arial" font-size="24" font-weight="800">ML</text>
+    </g>
+    <path d="M250 116h48M468 116h48" stroke="#1f1b16" stroke-width="5" stroke-linecap="round"/>
+    <path d="M320 230h130c44 0 58-38 86-38h80" fill="none" stroke="#f9735b" stroke-width="8" stroke-linecap="round"/>
+    <path d="M180 230h90" stroke="#7fb069" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="190" cy="230" r="24" fill="#4f8cc9" stroke="#1f1b16" stroke-width="4"/>
+    <circle cx="640" cy="192" r="24" fill="#8b5cf6" stroke="#1f1b16" stroke-width="4"/>
+  </g>
+</svg>

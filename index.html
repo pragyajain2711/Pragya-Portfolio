@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fff8ef" />
+  <meta
+    name="description"
+    content="Pragya Jain — software developer skilled in React, Java, SQL, responsive interfaces, API testing and practical workflow applications."
+  />
+  <meta property="og:title" content="Pragya Jain | Software Developer" />
+  <meta
+    property="og:description"
+    content="Portfolio of Pragya Jain, a React-focused software developer building practical web applications and clean digital workflows."
+  />
+  <meta property="og:type" content="website" />
+  <title>Pragya Jain | Software Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header" id="site-header">
+    <a class="brand" href="#home" aria-label="Go to home">
+      <span class="brand-mark">PJ</span>
+      <span>Pragya Jain</span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#journey">Journey</a>
+      <a href="project.html">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch theme" aria-pressed="false">
+        <span class="theme-toggle-icon" aria-hidden="true"></span>
+        <span class="theme-toggle-text">Mood</span>
+      </button>
+      <a class="resume-link" href="Pragya_Jain_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+      <button class="menu-button" id="menu-button" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#journey">Journey</a>
+    <a href="project.html">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="mini-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m8 9-4 3 4 3"/><path d="m16 9 4 3-4 3"/><path d="m14 5-4 14"/></svg></span> react · java · sql · practical web apps</p>
+        <h1>Hi, I’m Pragya — I build clean web apps from real user workflows.</h1>
+        <p class="hero-description">
+          Software developer and engineering graduate focused on React interfaces, Java fundamentals, SQL-backed applications and digital workflows that reduce manual work.
+        </p>
+
+        <div class="hero-actions">
+          <a class="primary-button" href="project.html">View projects</a>
+          <a class="secondary-button" href="mailto:pragyaj2704@gmail.com">Let’s connect</a>
+        </div>
+
+        <div class="notebook-strip" aria-label="Profile highlights">
+          <div>
+            <span>React UI</span>
+            <p>Reusable components</p>
+          </div>
+          <div>
+            <span>Java + SQL</span>
+            <p>Core backend thinking</p>
+          </div>
+          <div>
+            <span>APIs</span>
+            <p>Tested with Postman</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" aria-label="Playful developer profile visual">
+        <div class="lab-card main-card">
+          <div class="card-window" aria-hidden="true">
+            <span></span><span></span><span></span>
+          </div>
+          <p class="terminal-line">npm run build ✓</p>
+          <h2>React components, clean APIs, and workflows people can actually use</h2>
+          <div class="orbit" aria-hidden="true">
+            <span class="orbit-core">PJ</span>
+            <span class="orbit-dot dot-a"></span>
+            <span class="orbit-dot dot-b"></span>
+            <span class="orbit-dot dot-c"></span>
+          </div>
+        </div>
+
+        <div class="cli-terminal" aria-label="Animated developer terminal">
+          <div class="cli-topbar" aria-hidden="true">
+            <span></span><span></span><span></span>
+            <p>pragya@portfolio</p>
+          </div>
+          <div class="cli-screen">
+            <p><span class="cli-prompt">$</span> <span class="cli-type" data-cli-text="create-react-app workflow-ui"></span><span class="cli-caret" aria-hidden="true"></span></p>
+            <p class="cli-output">✓ components ready</p>
+            <p class="cli-output">✓ APIs tested with Postman</p>
+            <p class="cli-output">✓ SQL workflow connected</p>
+          </div>
+        </div>
+
+        <div class="sticky-note sticky-one">
+          <span class="mini-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="6" height="6" rx="1.5"/><rect x="14" y="4" width="6" height="6" rx="1.5"/><rect x="4" y="14" width="6" height="6" rx="1.5"/><rect x="14" y="14" width="6" height="6" rx="1.5"/></svg></span>
+          <p>Turn a register into a product flow.</p>
+        </div>
+
+        <div class="sticky-note sticky-two">
+          <span class="mini-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 3v5l-5 9a3 3 0 0 0 2.6 4.5h10.8A3 3 0 0 0 20 17L15 8V3"/><path d="M8 3h8"/><path d="M7 15h10"/></svg></span>
+          <p>Test the API before polishing the UI.</p>
+        </div>
+
+        <div class="floating-chip-card" aria-hidden="true">
+          <span class="mini-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m7 10 3 2-3 2"/><path d="M12 15h5"/></svg></span>
+          <p>frontend sprint</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading section-heading-row reveal">
+        <div>
+          <p class="eyebrow"><span>01</span> about</p>
+          <h2>A developer who likes turning everyday friction into usable software.</h2>
+        </div>
+        <div class="notion-emoji" aria-label="Notion-style emoji placeholder">
+          <span class="mini-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m7 10 3 2-3 2"/><path d="M12 15h5"/></svg></span>
+        </div>
+      </div>
+
+      <div class="about-grid">
+        <article class="paper-card reveal">
+          <p>
+            I’m a software developer focused on building clean, responsive, and useful web applications. I work with React, Java, SQL, REST APIs, and developer tools like Git, Postman, XAMPP, and Eclipse, with a strong interest in writing software that solves real workflow problems.
+          </p>
+          <p>
+            During my internship at Indian Oil Corporation Limited, I built a React-based Canteen Management System for 100+ employees. The application moved food ordering from paper registers to a digital workflow, reduced manual effort, and brought order-to-delivery time down by approximately 50%.
+          </p>
+        </article>
+
+        <aside class="profile-card about-doodle-card reveal">
+          <div class="about-doodle-frame">
+            <img src="assets/about-pragya-doodle.png" alt="Doodle illustration of Pragya Jain working as a software developer" loading="lazy" />
+          </div>
+          <div class="about-doodle-info">
+            <h3>Pragya Jain</h3>
+            <p>Software developer focused on React interfaces, Java fundamentals, SQL-backed workflows and API-tested applications.</p>
+          </div>
+          <div class="profile-tags">
+            <span>React</span>
+            <span>Java</span>
+            <span>SQL</span>
+            <span>Postman</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow"><span>02</span> skills and focus</p>
+        <h2>The tools and concepts I build with.</h2>
+      </div>
+
+      <div class="expertise-grid">
+        <article class="expertise-card reveal accent-coral">
+          <div class="icon-badge"><span class="mini-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="6" height="6" rx="1.5"/><rect x="14" y="4" width="6" height="6" rx="1.5"/><rect x="4" y="14" width="6" height="6" rx="1.5"/><rect x="14" y="14" width="6" height="6" rx="1.5"/></svg></span></div>
+          <h3>Frontend development</h3>
+          <p>React.js, HTML5, CSS3, responsive design and modular UI components for clean user-facing flows.</p>
+        </article>
+
+        <article class="expertise-card reveal accent-green">
+          <div class="icon-badge"><span class="mini-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 10h8v4a4 4 0 0 1-4 4h0a4 4 0 0 1-4-4z"/><path d="M16 11h1.5a2 2 0 0 1 0 4H16"/><path d="M10 7c1.2-.8 1.2-1.8 0-3"/><path d="M13 7c1.2-.8 1.2-1.8 0-3"/></svg></span></div>
+          <h3>Java and OOP</h3>
+          <p>Core Java, object-oriented programming and software development fundamentals for structured problem-solving.</p>
+        </article>
+
+        <article class="expertise-card reveal accent-yellow">
+          <div class="icon-badge"><span class="mini-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v12c0 1.7 3.1 3 7 3s7-1.3 7-3V6"/><path d="M5 12c0 1.7 3.1 3 7 3s7-1.3 7-3"/></svg></span></div>
+          <h3>SQL and databases</h3>
+          <p>Database schema thinking, DBMS fundamentals and SQL-based data handling for application workflows.</p>
+        </article>
+
+        <article class="expertise-card reveal accent-lilac">
+          <div class="icon-badge"><span class="mini-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 8h4"/><path d="M13 8h4"/><path d="M11 8a2 2 0 1 0-4 0 2 2 0 0 0 4 0Z"/><path d="M17 8a2 2 0 1 0-4 0 2 2 0 0 0 4 0Z"/><path d="M12 10v4"/><path d="M8 18h8"/><path d="M16 18a2 2 0 1 0-4 0 2 2 0 0 0 4 0Z"/></svg></span></div>
+          <h3>API testing</h3>
+          <p>REST API understanding, Postman testing, request/response validation and basic integration workflows.</p>
+        </article>
+
+        <article class="expertise-card reveal accent-blue">
+          <div class="icon-badge"><span class="mini-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="14" rx="2"/><path d="M8 9h8"/><path d="M8 13h5"/><path d="M7 17h10"/></svg></span></div>
+          <h3>Developer tools</h3>
+          <p>Git, GitHub, XAMPP, Eclipse IDE, React Router, TypeScript and Tailwind CSS in project contexts.</p>
+        </article>
+
+        <article class="expertise-card reveal accent-ink">
+          <div class="icon-badge"><span class="mini-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3.5 19a5.5 5.5 0 0 1 11 0"/><path d="M16 9a2.5 2.5 0 0 1 0 5"/><path d="M18 18a4 4 0 0 0-2.5-3.7"/></svg></span></div>
+          <h3>Execution and coordination</h3>
+          <p>Recruitment coordination, mock interviews, resume reviews, HR communication and scheduling operations.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section journey-section" id="journey">
+      <div class="journey-intro reveal">
+        <div>
+          <p class="eyebrow"><span>03</span> my journey</p>
+          <h2>From engineering fundamentals to real-world application building.</h2>
+        </div>
+        <p class="journey-tip">A small timeline of the moments that shaped the way I build, test and coordinate work.</p>
+      </div>
+
+      <div class="journey-board" aria-label="Pragya Jain journey timeline">
+        <aside class="journey-side-note reveal">
+          <span class="mini-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="6" cy="6" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="12" cy="18" r="2"/><path d="M8 6h8"/><path d="M12 8v8"/></svg></span>
+          <h3>Builder mindset</h3>
+          <p>I like projects where the output is visible: a screen, a workflow, a tested API, or a smoother process for people.</p>
+        </aside>
+
+        <div class="journey-track">
+          <article class="journey-card reveal">
+            <div class="journey-year">2022</div>
+            <div class="journey-copy">
+              <h3>Started B.Tech in ECE</h3>
+              <p>Began engineering studies at Ujjain Engineering College while building a foundation in programming, databases and core CS concepts.</p>
+            </div>
+          </article>
+
+          <article class="journey-card reveal">
+            <div class="journey-year">2023</div>
+            <div class="journey-copy">
+              <h3>Stepped into placement coordination</h3>
+              <p>Started leading Training & Placement activities, working with students, companies, schedules and hiring communication.</p>
+            </div>
+          </article>
+
+          <article class="journey-card reveal">
+            <div class="journey-year">2025</div>
+            <div class="journey-copy">
+              <h3>Built software at Indian Oil Corporation</h3>
+              <p>Developed a React-based canteen workflow used for 100+ employees and learned how production requirements shape software decisions.</p>
+            </div>
+          </article>
+
+          <article class="journey-card reveal">
+            <div class="journey-year">Now</div>
+            <div class="journey-copy">
+              <h3>Sharpening full-stack foundations</h3>
+              <p>Building projects like an AI-Powered Resume Analyzer while improving React, TypeScript, Tailwind, SQL and integration skills.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience-section" id="experience">
+      <div class="section-heading reveal">
+        <p class="eyebrow"><span>04</span> professional roadmap</p>
+        <h2>Two roles that shaped how I build: one in software, one in coordination.</h2>
+      </div>
+
+      <div class="experience-roadmap" aria-label="Professional experience roadmap">
+        <aside class="experience-note reveal">
+          <span class="mini-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 17h16"/><path d="M6 17V7h12v10"/><path d="M9 10h6"/><path d="M9 13h4"/></svg></span>
+          <h3>From requirements to rollout</h3>
+          <p>My experience sits at the intersection of building usable interfaces, testing workflows and coordinating people so projects actually move.</p>
+        </aside>
+
+        <div class="experience-track">
+          <article class="roadmap-item reveal">
+            <div class="roadmap-date">
+              <span>Jun – Aug</span>
+              <strong>2025</strong>
+            </div>
+            <div class="roadmap-copy">
+              <div class="roadmap-topline">
+                <span>Internship</span>
+                <span>React · APIs · XAMPP</span>
+              </div>
+              <h3>Software Development Intern</h3>
+              <p class="company">Indian Oil Corporation Limited · IS Dept.</p>
+              <ul>
+                <li>Developed a React-based Canteen Management System for 100+ employees.</li>
+                <li>Reduced order-to-delivery time from about 30 minutes to 15 minutes through a digital workflow.</li>
+                <li>Designed modular UI components and a database schema to reduce manual errors and paperwork.</li>
+                <li>Tested APIs using Postman and deployed locally using XAMPP.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="roadmap-item reveal">
+            <div class="roadmap-date roadmap-date-alt">
+              <span>Aug</span>
+              <strong>2023+</strong>
+            </div>
+            <div class="roadmap-copy">
+              <div class="roadmap-topline">
+                <span>Leadership</span>
+                <span>Ops · HR comms · Scheduling</span>
+              </div>
+              <h3>Chief Coordinator — Training & Placement Cell</h3>
+              <p class="company">Ujjain Engineering College</p>
+              <ul>
+                <li>Coordinated 40+ recruitment drives and managed engagement with 20+ companies.</li>
+                <li>Supported 500+ students through mock interviews, resume reviews and preparation workshops.</li>
+                <li>Handled interview scheduling and HR communication for smoother recruitment operations.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-preview-section" id="projects">
+      <div class="section-heading section-heading-row reveal">
+        <div>
+          <p class="eyebrow"><span>05</span> selected projects</p>
+          <h2>Small builds with practical outcomes.</h2>
+        </div>
+        <a class="inline-link" href="project.html">Open full project page →</a>
+      </div>
+
+      <div class="project-card-grid">
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img src="assets/project-canteen.png" alt="Canteen Management System preview" />
+          </div>
+          <div class="project-copy">
+            <span>React · SQL · APIs</span>
+            <h3>Canteen Management System</h3>
+            <p>Web-based system for food ordering, billing and meal tracking with a desk-delivery workflow for 100+ users.</p>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img src="assets/project-resume.png" alt="AI-Powered Resume Analyzer preview" />
+          </div>
+          <div class="project-copy">
+            <span>React · TypeScript · Tailwind</span>
+            <h3>AI-Powered Resume Analyzer</h3>
+            <p>Frontend platform to match resumes with job descriptions and show ATS score and skill-gap feedback.</p>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img src="assets/project-placement.png" alt="Placement workflow coordination preview" />
+          </div>
+          <div class="project-copy">
+            <span>Ops · Scheduling · Communication</span>
+            <h3>Placement coordination workflow</h3>
+            <p>Operational leadership across hiring drives, student prep, company engagement and interview coordination.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-card contact-card-doodle reveal">
+        <div class="contact-doodle" aria-hidden="true"><span class="mini-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 6h14a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2h-8l-5 4v-4H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2Z"/><path d="m8 11 2 2-2 2"/><path d="M12 15h4"/></svg></span></div>
+        <p class="eyebrow"><span>06</span> contact</p>
+        <h2>Let’s connect for software development, frontend engineering, full-stack internships or useful web tools.</h2>
+        <p>I am happy to connect around React interfaces, Java and SQL-backed workflows, API testing, internships and early-career software opportunities.</p>
+
+        <div class="contact-links">
+          <a href="mailto:pragyaj2704@gmail.com">Email</a>
+          <a href="https://linkedin.com/in/pragyajain2711" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/pragyajain2711" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="tel:+917803902804">Phone</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top">↑</button>
+
+  <footer class="site-footer">
+    <div class="footer-top">
+      <a class="footer-brand" href="#home" aria-label="Go to home">
+        <span class="brand-mark">PJ</span>
+        <span>Pragya Jain</span>
+      </a>
+      <p>Designed and developed by Pragya Jain using HTML, CSS and JavaScript — with a little warmth, motion and developer energy.</p>
+    </div>
+
+    <div class="footer-columns">
+      <div>
+        <h3>Navigate</h3>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#journey">Journey</a>
+        <a href="project.html">Projects</a>
+      </div>
+      <div>
+        <h3>Work</h3>
+        <a href="#experience">Professional roadmap</a>
+        <a href="project.html#curated-work">Project notes</a>
+        <a href="Pragya_Jain_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+      </div>
+      <div>
+        <h3>Connect</h3>
+        <a href="mailto:pragyaj2704@gmail.com">Email</a>
+        <a href="https://linkedin.com/in/pragyajain2711" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/pragyajain2711" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 Pragya Jain. Built with HTML, CSS and JavaScript.</span>
+      <a href="#home">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

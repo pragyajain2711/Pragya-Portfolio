@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-label="AI resume analyzer illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff8ef"/><stop offset="1" stop-color="#e8ddf9"/></linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fffaf2"/><stop offset="1" stop-color="#f6ead8"/></linearGradient>
+  </defs>
+  <rect width="900" height="620" rx="54" fill="url(#bg)"/>
+  <rect x="110" y="86" width="330" height="448" rx="34" fill="url(#card)" stroke="#2f261d" stroke-opacity=".15"/>
+  <rect x="488" y="116" width="300" height="360" rx="34" fill="#242018"/>
+  <circle cx="640" cy="296" r="102" fill="none" stroke="#ff8b68" stroke-width="16" stroke-dasharray="84 22"/>
+  <circle cx="640" cy="296" r="58" fill="#ffdb79"/>
+  <text x="608" y="308" fill="#171511" font-size="30" font-family="Arial, sans-serif" font-weight="800">ATS</text>
+  <path d="M160 170h180M160 218h220M160 266h146M160 360h210M160 408h170" stroke="#2a241d" stroke-width="16" stroke-linecap="round" opacity=".78"/>
+  <path d="M160 314h72" stroke="#ff8b68" stroke-width="16" stroke-linecap="round"/>
+  <path d="M532 174h136M532 434h192" stroke="#fff5e7" stroke-width="15" stroke-linecap="round" opacity=".72"/>
+  <path d="M532 216h206" stroke="#e7b84d" stroke-width="15" stroke-linecap="round"/>
+  <text x="112" y="68" fill="#231f18" font-size="32" font-family="Arial, sans-serif" font-weight="700">resume analyzer</text>
+</svg>
