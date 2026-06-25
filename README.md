@@ -19,6 +19,24 @@ I'm **Pragya Jain**, a Software Developer passionate about building responsive w
 * GitHub
 * Vercel
 
+# 📸 Portfolio Preview
+
+## Home
+
+![Home](screenshots/ome.png)
+
+## About
+
+![About](screenshots/about.png)
+
+## Skills
+
+![Projects](screenshots/projects.png)
+
+## Contact
+
+![Contact](screenshots/contact.png)
+
 ## ✨ Features
 
 * Responsive design
