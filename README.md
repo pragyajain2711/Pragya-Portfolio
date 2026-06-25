@@ -35,7 +35,7 @@ I'm **Pragya Jain**, a Software Developer passionate about building responsive w
 
 ## Contact
 
-![Contact](screenshots/contact.png)
+![Contact](assets/Contact.png)
 
 ## ✨ Features
 
