@@ -10,14 +10,7 @@ Welcome to my personal portfolio website! This portfolio showcases my skills, pr
 
 I'm **Pragya Jain**, a Software Developer passionate about building responsive web applications and solving real-world problems using modern web technologies.
 
-## 🛠️ Tech Stack
 
-* HTML5
-* CSS3
-* JavaScript
-* Git
-* GitHub
-* Vercel
 
 # 📸 Portfolio Preview
 
